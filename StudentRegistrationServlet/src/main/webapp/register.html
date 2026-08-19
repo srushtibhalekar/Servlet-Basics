@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form action="register" method="post">
+
+        <label>Student Name:</label>
+        <input type="text" name="studentName" required>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <br><br>
+
+        <label>Age:</label>
+        <input type="number" name="age" required>
+        <br><br>
+
+        <label>Course:</label>
+        <select name="course">
+            <option value="Java">Java</option>
+            <option value="Web Development">Web Development</option>
+            <option value="Database">Database</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+
+</body>
+</html>
